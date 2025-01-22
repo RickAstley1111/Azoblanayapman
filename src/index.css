@@ -1,0 +1,10 @@
+*{
+  font-family: sans-serif;
+}
+
+
+
+
+div ,p , span , body {
+  transition: 1s;
+}

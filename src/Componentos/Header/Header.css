@@ -1,0 +1,49 @@
+.login-btn{
+    padding:  10px 22px;
+    background-color: #46A358;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+}
+
+.full-header{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavLinks{
+    display: flex;
+    min-width: 350px;
+    justify-content: space-between;
+}
+
+.singleLink:focus{
+    font-weight: 800;
+}
+
+.singleLink{
+text-decoration: none;
+color: black;
+
+}
+
+.searcher-logo {
+    height: 100%;
+    width: 20px;
+}
+
+.korzinka-logo{
+    height: 100%;
+    width: 29px;
+}
+
+.image-logo-header{
+    width: 150px;
+}
+
+.later-header{
+    display: flex;
+}

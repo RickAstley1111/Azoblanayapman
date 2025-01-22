@@ -1,0 +1,11 @@
+.full-MainPage{
+    width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerGeter{
+    display: flex;
+    justify-content: center;
+}

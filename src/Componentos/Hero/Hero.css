@@ -1,0 +1,71 @@
+.Slogan-Hero {
+    margin-top: 0;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.welcomeP {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.greener {
+    color: green;
+    margin-left: 0.5rem;
+}
+
+.description-hero {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.ful-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.rasteni {
+    width: 100%;
+    height: auto;
+}
+
+.praver {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .ful-hero {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Slogan-Hero {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .welcomeP {
+        text-align: left;
+    }
+
+    .description-hero {
+        text-align: left;
+        width: 50%;
+    }
+
+    .praver {
+        max-width: 300px;
+    }
+}
+
